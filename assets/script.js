@@ -1,4 +1,4 @@
-fetch('http://localhost:8000/api/?format=json').then((data)=> {
+fetch('https://fakestoreapi.com/products').then((data)=> {
     return data.json();
 
 }).then((completedata)=>{
