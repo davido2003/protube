@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgTube</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body style="background-color:white">
+    <div class="cardes" style="background-color:darkred;">
+    <h1 class="heading">ProgTube</h1>
+     </div>
+     <br>
+     <center>
+       <form action="{% url 'searchbar' %}" method="get">
+         <input type="text" name="search"/>
+         <button type="submit">search</button>
+       </form>
+     </center>
+     <br>
+    <div id="cards">
+    </div>
+    <script src="{% static 'script.js' %}"></script>
+
+    
+        <style>
+            a:link, a:visited {
+              background-color:dimgray;
+              color: white;
+              padding: 14px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+            }
+            
+            a:hover, a:active {
+              background-color: white;
+              color: dimgray;
+            }
+            
+            </style>
+         </div>
+         <div class="cardes" style="background-color:darkred;">
+          <h1 class="headings">Watch and Learn useful video to make you be a better programmer</h1>
+          </div>
+</body>
+</html>
+
+    
+    
+    
+    
+     
