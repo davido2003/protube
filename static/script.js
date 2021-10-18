@@ -5,6 +5,7 @@ fetch('https://programmingnewsapi.herokuapp.com/?format=json').then((data)=> {
     let data1="";
     completedata.map((values)=>{
         data1+= `  <div class="card" style="background-color:white;">
+
         <h1 class="head" style="color:black;" >${values.title
         }</h1>
       
