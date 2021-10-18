@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProgTube</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
 </head>
 
-<body style="background-color:white">
-    <div class="cardes" style="background-color:darkred;">
-    <h1 class="heading">ProgTube</h1>
+<body style="background-color: dimgrey">
+    <div class="cardes" style="background-color:blue;">
+    <h1 class="heading">ProgNews</h1>
      </div>
      <br>
      <center>
-       <form action="{% url 'searchbar' %}" method="get">
-         <input type="text" name="search"/>
-         <button type="submit">search</button>
-       </form>
-     </center>
+       
+  </div>
+     
      <br>
     <div id="cards">
     </div>
@@ -31,7 +32,7 @@
             a:link, a:visited {
               background-color:dimgray;
               color: white;
-              padding: 14px 25px;
+              padding: 5px 10px;
               text-align: center;
               text-decoration: none;
               display: inline-block;
@@ -41,12 +42,23 @@
               background-color: white;
               color: dimgray;
             }
+            .images{
+              width: 100%;
+            
+             
+            }
+            .head{
+              text-align: center;
+              color: black;
+              font-size: 2.5rem;
+              margin-bottom: 1rem;
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+          }
             
             </style>
+            </center>
          </div>
-         <div class="cardes" style="background-color:darkred;">
-          <h1 class="headings">Watch and Learn useful video to make you be a better programmer</h1>
-          </div>
+         
 </body>
 </html>
 

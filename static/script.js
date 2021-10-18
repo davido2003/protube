@@ -5,12 +5,11 @@ fetch('https://programmingnewsapi.herokuapp.com/?format=json').then((data)=> {
     let data1="";
     completedata.map((values)=>{
         data1+= `  <div class="card" style="background-color:white;">
-        <h1 class="title" style="color:black;" >${values.title}</h1>
-       
-        <video width="500" controls>
-  <source src=${values.video} type="video/mp4">
-  
-</video>
+        <h1 class="head" style="color:black;" >${values.title
+        }</h1>
+      
+  <img src=${values.image} alt="img"  class="images">
+  <p>${values.description}</p>
       <button>
     <a href=${values.link}>LINK</a>
       </button>  
