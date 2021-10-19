@@ -1,4 +1,3 @@
-
 fetch('http://fakestoreapi.com/products').then((data)=> {
     return data.json();
 
