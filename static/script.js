@@ -1,4 +1,4 @@
-fetch('https://programmingnewsapi.herokuapp.com/?format=json').then((data)=> {
+fetch('http://fakestoreapi.com/products').then((data)=> {
     return data.json();
 
 }).then((completedata)=>{
